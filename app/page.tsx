@@ -30,26 +30,26 @@ export default function Portfolio() {
       <nav className="fixed top-0 w-full bg-background/80 backdrop-blur-sm border-b z-50">
         <div className="container mx-auto px-4 py-4">
           <div className="flex justify-between items-center">
-            <h1 className="text-xl font-bold">Alan Spacer</h1>
+            <h1 className="text-xl font-bold">Alan Prayogo</h1>
             <div className="flex items-center gap-4">
               <div className="hidden md:flex space-x-6">
                 <a
                   href="#home"
                   className="hover:text-primary transition-colors"
                 >
-                  Home
+                  Beranda
                 </a>
                 <a
                   href="#about"
                   className="hover:text-primary transition-colors"
                 >
-                  About
+                  Tentang
                 </a>
                 <a
                   href="#professional"
                   className="hover:text-primary transition-colors"
                 >
-                  Professional
+                  Profesional
                 </a>
                 <a
                   href="#personal"
@@ -61,7 +61,7 @@ export default function Portfolio() {
                   href="#contact"
                   className="hover:text-primary transition-colors"
                 >
-                  Contact
+                  Kontak
                 </a>
               </div>
               <div className="hidden md:block">
@@ -79,29 +79,37 @@ export default function Portfolio() {
           <div className="flex flex-col lg:flex-row items-center gap-12">
             <div className="flex-1 text-center lg:text-left">
               <h1 className="text-3xl md:text-5xl lg:text-6xl font-bold mb-4">
-                Halo, Saya Alan Spacer
+                Halo, Saya Alan Prayogo
                 <span className="text-xl md:text-3xl lg:text-4xl block text-primary mt-2">
                   Fullstack Web & Mobile Developer
                 </span>
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto lg:mx-0">
                 Mahasiswa Teknik Informatika yang berfokus pada pengembangan web
-                fullstack dan mobile app. Berpengalaman dengan Laravel, React,
-                dan Flutter.
+                fullstack dan mobile app. Berpengalaman dengan Laravel,
+                CodeIgniter, React, dan Flutter.
               </p>
               <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                <Button size="lg" className="gap-2">
-                  <Download className="w-4 h-4" />
-                  Download CV
-                </Button>
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="gap-2 bg-transparent"
+                <a
+                  href="/cv/alanprayogo-cv-2025.pdf"
+                  target="_blank"
+                  rel="noopener noreferrer"
                 >
-                  <Mail className="w-4 h-4" />
-                  Contact Me
-                </Button>
+                  <Button size="lg" className="gap-2">
+                    <Download className="w-4 h-4" />
+                    Unduh CV
+                  </Button>
+                </a>
+                <a href="#contact">
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="gap-2 bg-transparent"
+                  >
+                    <Mail className="w-4 h-4" />
+                    Hubungi Saya
+                  </Button>
+                </a>
               </div>
             </div>
             <div className="flex-1 max-w-sm md:max-w-md lg:max-w-lg">
@@ -136,6 +144,12 @@ export default function Portfolio() {
                           variant="secondary"
                           className="text-xs md:text-sm"
                         >
+                          CodeIgniter
+                        </Badge>
+                        <Badge
+                          variant="secondary"
+                          className="text-xs md:text-sm"
+                        >
                           React
                         </Badge>
                         <Badge
@@ -162,8 +176,19 @@ export default function Portfolio() {
               Tentang Saya
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Seorang mahasiswa yang passionate dalam pengembangan teknologi dan
-              selalu eager to learn
+              Saya adalah Founder dari MughniTech, sebuah inisiatif teknologi
+              yang terinspirasi dari Asmaul Husna
+              <span className="text-primary font-semibold italic">
+                {" "}
+                Al-Mughni
+              </span>{" "}
+              —
+              <span className="text-sm italic text-gray-500">
+                “Yang Maha Memberi Kekayaan”
+              </span>
+              . MughniTech hadir dengan semangat untuk menghadirkan solusi
+              digital yang tidak hanya inovatif, tetapi juga bermanfaat dan
+              menjadi jalan keberkahan melalui teknologi.
             </p>
           </div>
 
@@ -171,17 +196,26 @@ export default function Portfolio() {
             <div>
               <h3 className="text-2xl font-semibold mb-4">Background</h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Saya adalah mahasiswa Teknik Informatika yang berfokus pada
-                pengembangan aplikasi web fullstack dan mobile. Dengan
-                pengalaman menggunakan berbagai framework seperti CodeIgniter,
-                Laravel, React, dan Flutter. Saat ini keterampilan terkuat saya
-                adalah Laravel, dan sedang dalam proses memperdalam React.
+                Saya adalah mahasiswa semester 8 Teknik Informatika Terapan yang
+                berfokus pada pengembangan aplikasi web fullstack dan mobile.
+                Berpengalaman menggunakan berbagai framework seperti Laravel,
+                CodeIgniter, dan Flutter, dengan keahlian utama pada Laravel,
+                serta saat ini sedang mendalami React dan teknologi MERN stack.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Untuk penelitian skripsi, saya mengerjakan proyek yang
-                menggabungkan computer vision dan machine learning yang
-                diimplementasikan pada aplikasi mobile, menunjukkan minat saya
-                terhadap teknologi AI dan pengembangan mobile.
+                Saya pernah mengerjakan berbagai proyek website, mulai dari
+                landing page, learning management system (LMS), dashboard admin,
+                hingga undangan pernikahan digital berbasis Laravel dan PHP.
+                Python merupakan bahasa utama yang saya gunakan dalam
+                pembelajaran machine learning, sementara Java menjadi bahasa
+                yang saya minati karena arsitekturnya yang terstruktur dan
+                sistematis.
+              </p>
+              <p className="text-muted-foreground mb-6 leading-relaxed">
+                Untuk tugas akhir, saya mengembangkan proyek yang menggabungkan
+                computer vision dan machine learning dalam aplikasi mobile —
+                mencerminkan ketertarikan saya pada teknologi kecerdasan buatan
+                (AI) dan potensi integrasinya dalam pengembangan digital.
               </p>
             </div>
 
@@ -197,9 +231,10 @@ export default function Portfolio() {
                     <Badge>Laravel</Badge>
                     <Badge>CodeIgniter</Badge>
                     <Badge>React</Badge>
-                    <Badge>JavaScript</Badge>
+                    <Badge>Java</Badge>
                     <Badge>PHP</Badge>
                     <Badge>HTML/CSS</Badge>
+                    <Badge>JavaScript</Badge>
                   </div>
                 </div>
 
@@ -589,47 +624,60 @@ export default function Portfolio() {
           </div>
 
           <div className="grid lg:grid-cols-2 gap-12">
+            {/* Bagian Kiri: Kontak */}
             <div>
               <h3 className="text-xl font-semibold mb-6">Mari Terhubung</h3>
-              <div className="space-y-4">
-                <div className="flex items-center gap-4">
+              <div className="space-y-2">
+                {/* Email */}
+                <a
+                  href="https://mail.google.com/mail/?view=cm&to=alanbp98@gmail.com"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 hover:bg-muted/40 p-2 rounded-lg transition-colors"
+                >
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                     <Mail className="w-5 h-5 text-primary" />
                   </div>
                   <div>
-                    <p className="font-medium">Email</p>
-                    <p className="text-muted-foreground">
-                      your.email@example.com
+                    <p className="font-medium text-foreground">Email</p>
+                    <p className="text-muted-foreground break-all">
+                      alanbp98@gmail.com
                     </p>
                   </div>
-                </div>
+                </a>
 
-                <div className="flex items-center gap-4">
+                {/* GitHub */}
+                <a
+                  href="https://github.com/alanprayogo"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-4 hover:bg-muted/40 p-2 rounded-lg transition-colors"
+                >
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                     <Github className="w-5 h-5 text-primary" />
                   </div>
                   <div>
-                    <p className="font-medium">GitHub</p>
-                    <p className="text-muted-foreground">
-                      github.com/yourusername
+                    <p className="font-medium text-foreground">GitHub</p>
+                    <p className="text-muted-foreground break-all">
+                      https://github.com/alanprayogo
                     </p>
                   </div>
-                </div>
+                </a>
 
-                <div className="flex items-center gap-4">
+                {/* LinkedIn */}
+                <div className="flex items-center gap-4 hover:bg-muted/40 p-2 rounded-lg transition-colors">
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
                     <Linkedin className="w-5 h-5 text-primary" />
                   </div>
                   <div>
-                    <p className="font-medium">LinkedIn</p>
-                    <p className="text-muted-foreground">
-                      linkedin.com/in/yourprofile
-                    </p>
+                    <p className="font-medium text-foreground">LinkedIn</p>
+                    <p className="text-muted-foreground">comingsoon</p>
                   </div>
                 </div>
               </div>
             </div>
 
+            {/* Bagian Kanan: Form Kontak */}
             <Card>
               <CardHeader>
                 <CardTitle>Kirim Pesan</CardTitle>
@@ -638,37 +686,50 @@ export default function Portfolio() {
                 </CardDescription>
               </CardHeader>
               <CardContent>
-                <form className="space-y-4">
+                <form
+                  className="space-y-4"
+                  action="https://formspree.io/f/xzzvrprp"
+                  method="POST"
+                >
                   <div className="grid grid-cols-2 gap-4">
                     <div>
                       <label className="text-sm font-medium mb-2 block">
                         Nama
                       </label>
-                      <Input placeholder="Nama Anda" />
+                      <Input name="name" placeholder="Nama Anda" required />
                     </div>
                     <div>
                       <label className="text-sm font-medium mb-2 block">
                         Email
                       </label>
-                      <Input type="email" placeholder="email@example.com" />
+                      <Input
+                        type="email"
+                        name="email"
+                        placeholder="email@example.com"
+                        required
+                      />
                     </div>
                   </div>
                   <div>
                     <label className="text-sm font-medium mb-2 block">
                       Subjek
                     </label>
-                    <Input placeholder="Subjek pesan" />
+                    <Input name="subject" placeholder="Subjek pesan" />
                   </div>
                   <div>
                     <label className="text-sm font-medium mb-2 block">
                       Pesan
                     </label>
                     <Textarea
+                      name="pesan"
                       placeholder="Tulis pesan Anda di sini..."
                       rows={4}
+                      required
                     />
                   </div>
-                  <Button className="w-full">Kirim Pesan</Button>
+                  <Button type="submit" className="w-full">
+                    Kirim Pesan
+                  </Button>
                 </form>
               </CardContent>
             </Card>
@@ -681,18 +742,37 @@ export default function Portfolio() {
         <div className="container mx-auto max-w-6xl">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground mb-4 md:mb-0">
-              © 2024 Portfolio. Dibuat dengan ❤️ menggunakan Next.js
+              © 2025 Portofolio. Didukung oleh MughniTech
             </p>
             <div className="flex gap-4">
-              <Button variant="ghost" size="sm">
-                <Github className="w-4 h-4" />
-              </Button>
+              <a
+                href="https://github.com/alanprayogo"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="ghost" size="sm">
+                  <Github className="w-4 h-4" />
+                </Button>
+              </a>
+
+              {/* <a
+                href="#"
+                target="_blank"
+                rel="noopener noreferrer"
+              ></a> */}
               <Button variant="ghost" size="sm">
                 <Linkedin className="w-4 h-4" />
               </Button>
-              <Button variant="ghost" size="sm">
-                <Mail className="w-4 h-4" />
-              </Button>
+
+              <a
+                href="https://mail.google.com/mail/?view=cm&to=alanbp98@gmail.com"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Button variant="ghost" size="sm">
+                  <Mail className="w-4 h-4" />
+                </Button>
+              </a>
             </div>
           </div>
         </div>
