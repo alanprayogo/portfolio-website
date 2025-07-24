@@ -300,7 +300,11 @@ export default function Portfolio() {
             <Card className="group hover:shadow-lg transition-all duration-300">
               <div className="relative overflow-hidden rounded-t-lg">
                 <div className="w-full h-48 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
-                  <Code className="w-16 h-16 text-white" />
+                  <img
+                    src="/portfolio/guestbook.png"
+                    alt="MOOC Universitas Airlangga"
+                    className="w-full h-full object-fit"
+                  />
                 </div>
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
                   <Button size="sm" variant="secondary" className="gap-2">
@@ -314,17 +318,23 @@ export default function Portfolio() {
                 </div>
               </div>
               <CardHeader>
-                <CardTitle>E-Commerce Platform</CardTitle>
+                <CardTitle>Sistem Undangan Digital</CardTitle>
                 <CardDescription>
-                  Platform e-commerce lengkap untuk UMKM dengan sistem
-                  pembayaran terintegrasi dan dashboard analytics
+                  Aplikasi web yang mempermudah proses pembuatan dan distribusi
+                  undangan digital untuk berbagai acara. Platform ini secara
+                  otomatis menghasilkan QR Code dari data buku tamu, yang dapat
+                  dipindai saat hadir di venue. Dilengkapi fitur statistik
+                  kehadiran tamu, pengaturan tema (nama acara, warna,
+                  background, dan font), serta modul tambahan seperti souvenir
+                  dan gift
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="outline">Laravel</Badge>
                   <Badge variant="outline">MySQL</Badge>
-                  <Badge variant="outline">Payment Gateway</Badge>
+                  <Badge variant="outline">Tailwind CSS</Badge>
+                  <Badge variant="outline">QR Code</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -333,7 +343,11 @@ export default function Portfolio() {
             <Card className="group hover:shadow-lg transition-all duration-300">
               <div className="relative overflow-hidden rounded-t-lg">
                 <div className="w-full h-48 bg-gradient-to-br from-green-500 to-blue-600 flex items-center justify-center">
-                  <Database className="w-16 h-16 text-white" />
+                  <img
+                    src="/portfolio/warehouse.png"
+                    alt="MOOC Universitas Airlangga"
+                    className="w-full h-full object-fit"
+                  />
                 </div>
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
                   <Button size="sm" variant="secondary" className="gap-2">
@@ -347,15 +361,19 @@ export default function Portfolio() {
                 </div>
               </div>
               <CardHeader>
-                <CardTitle>School Management System</CardTitle>
+                <CardTitle>SI Pencatatan Gudang</CardTitle>
                 <CardDescription>
-                  Sistem informasi akademik untuk sekolah dengan fitur manajemen
-                  siswa, guru, dan nilai
+                  Sistem Informasi berbasis web untuk pencatatan dan pengelolaan
+                  gudang. Mendukung manajemen data master, pergerakan barang
+                  masuk-keluar, laporan stok, serta pengaturan hak akses
+                  berbasis role pengguna seperti admin, logistik, dan
+                  purchasing. Cocok untuk perusahaan yang membutuhkan
+                  visibilitas dan efisiensi operasional gudang
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  <Badge variant="outline">CodeIgniter</Badge>
+                  <Badge variant="outline">Laravel</Badge>
                   <Badge variant="outline">MySQL</Badge>
                   <Badge variant="outline">Bootstrap</Badge>
                 </div>
@@ -366,7 +384,11 @@ export default function Portfolio() {
             <Card className="group hover:shadow-lg transition-all duration-300">
               <div className="relative overflow-hidden rounded-t-lg">
                 <div className="w-full h-48 bg-gradient-to-br from-purple-500 to-pink-600 flex items-center justify-center">
-                  <Brain className="w-16 h-16 text-white" />
+                  <img
+                    src="/portfolio/mooc.png"
+                    alt="MOOC Universitas Airlangga"
+                    className="w-full h-full object-fit"
+                  />
                 </div>
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
                   <Button size="sm" variant="secondary" className="gap-2">
@@ -380,17 +402,22 @@ export default function Portfolio() {
                 </div>
               </div>
               <CardHeader>
-                <CardTitle>Computer Vision Research</CardTitle>
+                <CardTitle>MOOC Universitas Airlangga</CardTitle>
                 <CardDescription>
-                  Penelitian skripsi: Implementasi computer vision dan machine
-                  learning pada aplikasi mobile
+                  Platform Massive Open Online Course (MOOC) milik Universitas
+                  Airlangga dengan sistem pembelajaran daring untuk publik.
+                  Mendukung multi-role (admin, dosen, asisten dosen, dan
+                  pengguna), berbagai jenis course (gratis/berbayar), sistem
+                  mentoring oleh dosen/praktisi, tugas terstruktur, dan
+                  sertifikasi digital sebagai bukti kelulusan
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  <Badge variant="outline">Flutter</Badge>
-                  <Badge variant="outline">Python</Badge>
-                  <Badge variant="outline">TensorFlow</Badge>
+                  <Badge variant="outline">Laravel</Badge>
+                  <Badge variant="outline">MySQL</Badge>
+                  <Badge variant="outline">Moodle</Badge>
+                  <Badge variant="outline">Payment Gateway</Badge>
                 </div>
               </CardContent>
             </Card>
