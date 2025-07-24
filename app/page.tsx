@@ -307,13 +307,25 @@ export default function Portfolio() {
                   />
                 </div>
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
-                  <Button size="sm" variant="secondary" className="gap-2">
+                  <div className="text-sm text-muted-foreground flex items-center gap-2">
                     <ExternalLink className="w-4 h-4" />
-                    Demo
-                  </Button>
-                  <Button size="sm" variant="secondary" className="gap-2">
-                    <Github className="w-4 h-4" />
-                    Code
+                    Demo belum tersedia
+                  </div>
+
+                  <Button
+                    asChild
+                    size="sm"
+                    variant="secondary"
+                    className="gap-2"
+                  >
+                    <a
+                      href="https://github.com/alanprayogo/guestbook"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Github className="w-4 h-4" />
+                      Code
+                    </a>
                   </Button>
                 </div>
               </div>
@@ -350,13 +362,25 @@ export default function Portfolio() {
                   />
                 </div>
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
-                  <Button size="sm" variant="secondary" className="gap-2">
+                  <div className="text-sm text-muted-foreground flex items-center gap-2">
                     <ExternalLink className="w-4 h-4" />
-                    Demo
-                  </Button>
-                  <Button size="sm" variant="secondary" className="gap-2">
-                    <Github className="w-4 h-4" />
-                    Code
+                    Demo belum tersedia
+                  </div>
+
+                  <Button
+                    asChild
+                    size="sm"
+                    variant="secondary"
+                    className="gap-2"
+                  >
+                    <a
+                      href="https://github.com/alanprayogo/si-gudang"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Github className="w-4 h-4" />
+                      Code
+                    </a>
                   </Button>
                 </div>
               </div>
@@ -391,13 +415,36 @@ export default function Portfolio() {
                   />
                 </div>
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
-                  <Button size="sm" variant="secondary" className="gap-2">
-                    <ExternalLink className="w-4 h-4" />
-                    Demo
+                  <Button
+                    asChild
+                    size="sm"
+                    variant="secondary"
+                    className="gap-2"
+                  >
+                    <a
+                      href="https://mooc.unair.ac.id/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <ExternalLink className="w-4 h-4" />
+                      Demo
+                    </a>
                   </Button>
-                  <Button size="sm" variant="secondary" className="gap-2">
-                    <Github className="w-4 h-4" />
-                    Code
+
+                  <Button
+                    asChild
+                    size="sm"
+                    variant="secondary"
+                    className="gap-2"
+                  >
+                    <a
+                      href="https://github.com/alanprayogo/pl-mooc"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Github className="w-4 h-4" />
+                      Code
+                    </a>
                   </Button>
                 </div>
               </div>
@@ -405,11 +452,11 @@ export default function Portfolio() {
                 <CardTitle>MOOC Universitas Airlangga</CardTitle>
                 <CardDescription>
                   Platform Massive Open Online Course (MOOC) milik Universitas
-                  Airlangga dengan sistem pembelajaran daring untuk publik.
-                  Mendukung multi-role (admin, dosen, asisten dosen, dan
-                  pengguna), berbagai jenis course (gratis/berbayar), sistem
-                  mentoring oleh dosen/praktisi, tugas terstruktur, dan
-                  sertifikasi digital sebagai bukti kelulusan
+                  Airlangga dengan sistem pembelajaran daring untuk publik dan
+                  mahasiswa internal. Mendukung multi-role (admin, dosen,
+                  asisten dosen, dan pengguna), berbagai jenis course
+                  (gratis/berbayar), sistem mentoring oleh dosen/praktisi, tugas
+                  terstruktur, dan sertifikasi digital sebagai bukti kelulusan
                 </CardDescription>
               </CardHeader>
               <CardContent>
