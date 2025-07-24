@@ -186,9 +186,12 @@ export default function Portfolio() {
               <span className="text-sm italic text-gray-500">
                 “Yang Maha Memberi Kekayaan”
               </span>
-              . MughniTech hadir dengan semangat untuk menghadirkan solusi
-              digital yang tidak hanya inovatif, tetapi juga bermanfaat dan
-              menjadi jalan keberkahan melalui teknologi.
+              . MughniTech berfokus pada pengembangan berbagai produk digital
+              yang inovatif, inklusif, dan bermanfaat bagi pengguna lintas
+              sektor, mulai dari UMKM, atlet, pelajar, hingga perusahaan.
+              MughniTech juga diharapkan menjadi ruang berkarya bersama,
+              sekaligus membuka lapangan pekerjaan dan program magang bagi
+              talenta muda di bidang teknologi dan konten digital
             </p>
           </div>
 
