@@ -303,7 +303,7 @@ export default function Portfolio() {
                 <div className="w-full h-48 bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center">
                   <img
                     src="/portfolio/guestbook.png"
-                    alt="MOOC Universitas Airlangga"
+                    alt="Guest Book"
                     className="w-full h-full object-fit"
                   />
                 </div>
@@ -358,7 +358,7 @@ export default function Portfolio() {
                 <div className="w-full h-48 bg-gradient-to-br from-green-500 to-blue-600 flex items-center justify-center">
                   <img
                     src="/portfolio/warehouse.png"
-                    alt="MOOC Universitas Airlangga"
+                    alt="Warehouse Management"
                     className="w-full h-full object-fit"
                   />
                 </div>
@@ -491,31 +491,46 @@ export default function Portfolio() {
             <Card className="group hover:shadow-lg transition-all duration-300">
               <div className="relative overflow-hidden rounded-t-lg">
                 <div className="w-full h-48 bg-gradient-to-br from-orange-500 to-red-600 flex items-center justify-center">
-                  <Smartphone className="w-16 h-16 text-white" />
+                  <img src="/project/bs.jpg" alt="Bid Snapper" className="" />
                 </div>
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
                   <Button size="sm" variant="secondary" className="gap-2">
                     <ExternalLink className="w-4 h-4" />
                     Demo
                   </Button>
-                  <Button size="sm" variant="secondary" className="gap-2">
-                    <Github className="w-4 h-4" />
-                    Code
+                  <Button
+                    asChild
+                    size="sm"
+                    variant="secondary"
+                    className="gap-2"
+                  >
+                    <a
+                      href="https://github.com/alanprayogo/bridge_contract_analyzer"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Github className="w-4 h-4" />
+                      Code
+                    </a>
                   </Button>
                 </div>
               </div>
               <CardHeader>
-                <CardTitle>Task Manager Flutter</CardTitle>
+                <CardTitle>Bid Snapper</CardTitle>
                 <CardDescription>
-                  Aplikasi mobile untuk manajemen tugas pribadi dengan fitur
-                  reminder dan sinkronisasi cloud
+                  Proyek skripsi berupa aplikasi mobile berbasis Flutter, yang
+                  mengintegrasikan deteksi objek dengan YOLOv8, sistem bidding
+                  berbasis aturan untuk permainan bridge, serta optimasi kontrak
+                  menggunakan algoritma NSGA-II untuk membantu pemain pemula
+                  memahami skema penawaran secara otomatis dan strategis
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
                   <Badge variant="outline">Flutter</Badge>
-                  <Badge variant="outline">Firebase</Badge>
                   <Badge variant="outline">Dart</Badge>
+                  <Badge variant="outline">Python</Badge>
+                  <Badge variant="outline">API Integration</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -524,31 +539,49 @@ export default function Portfolio() {
             <Card className="group hover:shadow-lg transition-all duration-300">
               <div className="relative overflow-hidden rounded-t-lg">
                 <div className="w-full h-48 bg-gradient-to-br from-cyan-500 to-blue-600 flex items-center justify-center">
-                  <Code className="w-16 h-16 text-white" />
+                  <img
+                    src="/project/bidhub.png"
+                    alt="BidHub"
+                    className="w-full h-full object-fit"
+                  />
                 </div>
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
-                  <Button size="sm" variant="secondary" className="gap-2">
+                  <div className="text-sm text-muted-foreground flex items-center gap-2">
                     <ExternalLink className="w-4 h-4" />
-                    Demo
-                  </Button>
-                  <Button size="sm" variant="secondary" className="gap-2">
-                    <Github className="w-4 h-4" />
-                    Code
+                    Demo belum tersedia
+                  </div>
+
+                  <Button
+                    asChild
+                    size="sm"
+                    variant="secondary"
+                    className="gap-2"
+                  >
+                    <a
+                      href="https://github.com/alanprayogo/bridge-hand-detector"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Github className="w-4 h-4" />
+                      Code
+                    </a>
                   </Button>
                 </div>
               </div>
               <CardHeader>
-                <CardTitle>React Dashboard</CardTitle>
+                <CardTitle>Deteksi Kartu YOLOv8</CardTitle>
                 <CardDescription>
-                  Dashboard personal untuk tracking habits dan goals dengan
-                  chart interaktif
+                  Proyek pra-skripsi yang fokus pada pembelajaran deteksi kartu
+                  bridge menggunakan YOLOv8, mencakup inisiasi project,
+                  labeling, training dataset, dan deployment awal. Menjadi
+                  fondasi utama dari pengembangan Bid Snapper
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  <Badge variant="outline">React</Badge>
-                  <Badge variant="outline">Chart.js</Badge>
-                  <Badge variant="outline">Tailwind</Badge>
+                  <Badge variant="outline">Computer Vision</Badge>
+                  <Badge variant="outline">YOLOv8</Badge>
+                  <Badge variant="outline">Phyton</Badge>
                 </div>
               </CardContent>
             </Card>
@@ -557,130 +590,49 @@ export default function Portfolio() {
             <Card className="group hover:shadow-lg transition-all duration-300">
               <div className="relative overflow-hidden rounded-t-lg">
                 <div className="w-full h-48 bg-gradient-to-br from-indigo-500 to-purple-600 flex items-center justify-center">
-                  <Smartphone className="w-16 h-16 text-white" />
+                  <img
+                    src="/project/atson.jpg"
+                    alt="Atson Group"
+                    className="w-full h-full object-fit"
+                  />
                 </div>
                 <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
-                  <Button size="sm" variant="secondary" className="gap-2">
+                  <div className="text-sm text-muted-foreground flex items-center gap-2">
                     <ExternalLink className="w-4 h-4" />
-                    Demo
-                  </Button>
-                  <Button size="sm" variant="secondary" className="gap-2">
-                    <Github className="w-4 h-4" />
-                    Code
-                  </Button>
-                </div>
-              </div>
-              <CardHeader>
-                <CardTitle>Weather App Flutter</CardTitle>
-                <CardDescription>
-                  Aplikasi cuaca dengan UI yang menarik, forecast 7 hari, dan
-                  deteksi lokasi otomatis
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex flex-wrap gap-2">
-                  <Badge variant="outline">Flutter</Badge>
-                  <Badge variant="outline">API Integration</Badge>
-                  <Badge variant="outline">Geolocation</Badge>
-                </div>
-              </CardContent>
-            </Card>
+                    Demo belum tersedia
+                  </div>
 
-            {/* Personal Project 4 */}
-            <Card className="group hover:shadow-lg transition-all duration-300">
-              <div className="relative overflow-hidden rounded-t-lg">
-                <div className="w-full h-48 bg-gradient-to-br from-pink-500 to-rose-600 flex items-center justify-center">
-                  <Code className="w-16 h-16 text-white" />
-                </div>
-                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
-                  <Button size="sm" variant="secondary" className="gap-2">
-                    <ExternalLink className="w-4 h-4" />
-                    Demo
-                  </Button>
-                  <Button size="sm" variant="secondary" className="gap-2">
-                    <Github className="w-4 h-4" />
-                    Code
-                  </Button>
-                </div>
-              </div>
-              <CardHeader>
-                <CardTitle>Blog Personal Laravel</CardTitle>
-                <CardDescription>
-                  Blog pribadi dengan sistem CMS, komentar, dan kategori artikel
-                  untuk berbagi pengalaman coding
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex flex-wrap gap-2">
-                  <Badge variant="outline">Laravel</Badge>
-                  <Badge variant="outline">MySQL</Badge>
-                  <Badge variant="outline">TinyMCE</Badge>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Personal Project 5 */}
-            <Card className="group hover:shadow-lg transition-all duration-300">
-              <div className="relative overflow-hidden rounded-t-lg">
-                <div className="w-full h-48 bg-gradient-to-br from-emerald-500 to-teal-600 flex items-center justify-center">
-                  <Database className="w-16 h-16 text-white" />
-                </div>
-                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
-                  <Button size="sm" variant="secondary" className="gap-2">
-                    <ExternalLink className="w-4 h-4" />
-                    Demo
-                  </Button>
-                  <Button size="sm" variant="secondary" className="gap-2">
-                    <Github className="w-4 h-4" />
-                    Code
+                  <Button
+                    asChild
+                    size="sm"
+                    variant="secondary"
+                    className="gap-2"
+                  >
+                    <a
+                      href="https://github.com/alanprayogo/atson-group"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <Github className="w-4 h-4" />
+                      Code
+                    </a>
                   </Button>
                 </div>
               </div>
               <CardHeader>
-                <CardTitle>API Learning Project</CardTitle>
+                <CardTitle>Atson Group</CardTitle>
                 <CardDescription>
-                  RESTful API sederhana untuk belajar konsep backend dan
-                  integrasi dengan frontend
+                  Prototipe desain website katalog produk dan dashboard admin
+                  untuk kebutuhan praktikum, dengan tampilan yang responsif dan
+                  struktur antarmuka sederhana. Proyek ini menekankan penerapan
+                  prinsip UI/UX dan manajemen konten berbasis web
                 </CardDescription>
               </CardHeader>
               <CardContent>
                 <div className="flex flex-wrap gap-2">
-                  <Badge variant="outline">Laravel</Badge>
-                  <Badge variant="outline">API</Badge>
-                  <Badge variant="outline">Postman</Badge>
-                </div>
-              </CardContent>
-            </Card>
-
-            {/* Personal Project 6 */}
-            <Card className="group hover:shadow-lg transition-all duration-300">
-              <div className="relative overflow-hidden rounded-t-lg">
-                <div className="w-full h-48 bg-gradient-to-br from-violet-500 to-purple-600 flex items-center justify-center">
-                  <Code className="w-16 h-16 text-white" />
-                </div>
-                <div className="absolute inset-0 bg-black/60 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center gap-4">
-                  <Button size="sm" variant="secondary" className="gap-2">
-                    <ExternalLink className="w-4 h-4" />
-                    Demo
-                  </Button>
-                  <Button size="sm" variant="secondary" className="gap-2">
-                    <Github className="w-4 h-4" />
-                    Code
-                  </Button>
-                </div>
-              </div>
-              <CardHeader>
-                <CardTitle>Calculator React</CardTitle>
-                <CardDescription>
-                  Kalkulator sederhana dengan React untuk mempelajari state
-                  management dan event handling
-                </CardDescription>
-              </CardHeader>
-              <CardContent>
-                <div className="flex flex-wrap gap-2">
-                  <Badge variant="outline">React</Badge>
-                  <Badge variant="outline">JavaScript</Badge>
-                  <Badge variant="outline">CSS</Badge>
+                  <Badge variant="outline">HTML/CSS</Badge>
+                  <Badge variant="outline">Bootstrap</Badge>
+                  <Badge variant="outline">Javascript</Badge>
                 </div>
               </CardContent>
             </Card>
