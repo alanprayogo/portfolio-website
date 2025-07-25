@@ -660,9 +660,7 @@ export default function Portfolio() {
               <div className="space-y-2">
                 {/* Email */}
                 <a
-                  href="https://mail.google.com/mail/?view=cm&to=alanbp98@gmail.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
+                  href="mailto:alanbp98@gmail.com"
                   className="flex items-center gap-4 hover:bg-muted/40 p-2 rounded-lg transition-colors"
                 >
                   <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center">
