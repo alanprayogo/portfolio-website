@@ -1,17 +1,17 @@
-"use client"
+"use client";
 
-import * as React from "react"
-import { Menu } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import { ThemeToggle } from "./theme-toggle"
+import * as React from "react";
+import { Menu } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
+import { ThemeToggle } from "./theme-toggle";
 
 export function MobileNav() {
-  const [open, setOpen] = React.useState(false)
+  const [open, setOpen] = React.useState(false);
 
   const handleLinkClick = () => {
-    setOpen(false)
-  }
+    setOpen(false);
+  };
 
   return (
     <Sheet open={open} onOpenChange={setOpen}>
@@ -28,21 +28,21 @@ export function MobileNav() {
             className="text-lg font-medium hover:text-primary transition-colors"
             onClick={handleLinkClick}
           >
-            Home
+            Beranda
           </a>
           <a
             href="#about"
             className="text-lg font-medium hover:text-primary transition-colors"
             onClick={handleLinkClick}
           >
-            About
+            Tentang
           </a>
           <a
             href="#professional"
             className="text-lg font-medium hover:text-primary transition-colors"
             onClick={handleLinkClick}
           >
-            Professional
+            Profesional
           </a>
           <a
             href="#personal"
@@ -56,16 +56,16 @@ export function MobileNav() {
             className="text-lg font-medium hover:text-primary transition-colors"
             onClick={handleLinkClick}
           >
-            Contact
+            Kontak
           </a>
           <div className="pt-4 border-t">
             <div className="flex items-center justify-between">
-              <span className="text-sm font-medium">Theme</span>
+              <span className="text-sm font-medium">Tema</span>
               <ThemeToggle />
             </div>
           </div>
         </div>
       </SheetContent>
     </Sheet>
-  )
+  );
 }

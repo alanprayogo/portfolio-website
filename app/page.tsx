@@ -189,9 +189,13 @@ export default function Portfolio() {
               . MughniTech berfokus pada pengembangan berbagai produk digital
               yang inovatif, inklusif, dan bermanfaat bagi pengguna lintas
               sektor, mulai dari UMKM, atlet, pelajar, hingga perusahaan.
-              MughniTech juga diharapkan menjadi ruang berkarya bersama,
-              sekaligus membuka lapangan pekerjaan dan program magang bagi
-              talenta muda di bidang teknologi dan konten digital
+              <span className="underline">
+                {" "}
+                Saat ini, MughniTech masih berada dalam tahap pengembangan awal
+              </span>
+              , yang diproyeksikan menjadi ruang berkarya bersama, sekaligus
+              membuka lapangan pekerjaan dan program magang bagi talenta muda di
+              bidang teknologi dan konten digital
             </p>
           </div>
 
