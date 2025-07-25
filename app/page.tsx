@@ -203,20 +203,17 @@ export default function Portfolio() {
             <div>
               <h3 className="text-2xl font-semibold mb-4">Background</h3>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Saya adalah mahasiswa semester 8 Teknik Informatika Terapan yang
-                berfokus pada pengembangan aplikasi web fullstack dan mobile.
+                Saya adalah mahasiswa semester 8, D4 Teknik Informatika.
+                Berfokus pada pengembangan aplikasi web fullstack dan mobile.
                 Berpengalaman menggunakan berbagai framework seperti Laravel,
-                CodeIgniter, dan Flutter, dengan keahlian utama pada Laravel,
-                serta saat ini sedang mendalami React dan teknologi MERN stack.
+                CodeIgniter, Flutter, serta sedang mendalami React dan teknologi
+                MERN stack.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Saya pernah mengerjakan berbagai proyek website, mulai dari
-                landing page, learning management system (LMS), dashboard admin,
-                hingga undangan pernikahan digital berbasis Laravel dan PHP.
-                Python merupakan bahasa utama yang saya gunakan dalam
-                pembelajaran machine learning, sementara Java menjadi bahasa
-                yang saya minati karena arsitekturnya yang terstruktur dan
-                sistematis.
+                Saya telah mengerjakan beragam proyek, mulai dari landing page,
+                LMS, dashboard admin, hingga undangan digital. Dalam bidang
+                machine learning, saya menggunakan Python, sementara Java saya
+                minati karena arsitekturnya yang sistematis.
               </p>
               <p className="text-muted-foreground mb-6 leading-relaxed">
                 Untuk tugas akhir, saya mengembangkan proyek yang menggabungkan
